@@ -1,0 +1,96 @@
+plugins {
+    id 'java'
+    id "com.github.johnrengelman.shadow" version '2.0.1'
+}
+
+compileJava.options.encoding = 'UTF-8'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+group 'net.assimilationmc'
+version '1.0-SNAPSHOT'
+
+ext {
+    nexusUser = "$System.env.NEXUS_USER"
+    nexusPass = "$System.env.NEXUS_PASS"
+    releaseRepo = "http://repo.elliepotato.de/repository/assimc-release/"
+    devRepo = "http://repo.elliepotato.de/repository/assimc-dev/"
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    jcenter()
+
+    /* Spigot / Bukkit */
+    maven { url 'https://hub.spigotmc.org/nexus/content/groups/public/' }
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+
+    /* ProtocolLib */
+    maven {
+        url 'http://repo.dmulloy2.net/nexus/repository/public/'
+    }
+
+    /* Citizens */
+    maven {
+        url 'http://repo.citizensnpcs.co/'
+    }
+
+    /* Holographic Displays */
+    maven {
+        url 'https://ci.filoghost.me/plugin/repository/everything/'
+    }
+
+    /* Particle Lib */
+    maven {
+        url 'https://repo.inventivetalent.org/content/groups/public/'
+    }
+
+    /* AssimilationMC */
+    maven {
+        url releaseRepo
+        credentials {
+            username nexusUser
+            password nexusPass
+        }
+    }
+
+    maven {
+        url devRepo
+        credentials {
+            username nexusUser
+            password nexusPass
+        }
+    }
+
+}
+
+dependencies {
+    compileOnly group: 'net.assimilationmc', name: 'assicore', version: '1.0-RELEASE'
+
+    /* Provided Libraries */
+    compileOnly group: 'org.spigotmc', name: 'spigot-api', version: '1.8.8-R0.1-SNAPSHOT'
+    compileOnly group: 'org.bukkit', name: 'craftbukkit', version: '1.8.8-R0.1-RELEASE' // sourced from assi-release
+
+    /* Soft-Dependencies */
+    compileOnly group: 'com.comphenix.protocol', name: 'ProtocolLib-API', version: '4.4.0-SNAPSHOT'
+    compileOnly group: 'net.citizensnpcs', name: 'citizensapi', version: '2.0.16-SNAPSHOT'
+    compileOnly group: 'com.gmail.filoghost.holographicdisplays', name: 'holographicdisplays-api', version: '2.2.7-SNAPSHOT'
+
+    /* DB Tools */
+    compileOnly group: 'com.zaxxer', name: 'HikariCP', version: '3.2.0'
+
+    /* Redis client */
+    compileOnly group: 'redis.clients', name: 'jedis', version: '2.9.0'
+
+    /* Particle API */
+    compile group: 'org.inventivetalent', name: 'particleapi', version: '2.1.2'
+
+    /* Utils */
+    compileOnly group: 'org.reflections', name: 'reflections', version: '0.9.10' // Reflections
+    compileOnly group: 'org.ocpsoft.prettytime', name: 'prettytime', version: '3.2.7.Final'
+}
+
+shadowJar {
+    archiveName = "UHCLobbyAdaptor-${version}.jar"
+}

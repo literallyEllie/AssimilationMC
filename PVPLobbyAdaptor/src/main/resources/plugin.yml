@@ -1,0 +1,7 @@
+name: PVPLobbyAdaptor
+main: net.assimilationmc.pvplobbyadaptor.PVPLobbyAdaptor
+version: 1.0
+author: AssimialtionMC Development Team
+description: An adaptor plugin to provide support for a PVP arena in the Lobby server.
+website: www.assimilationmc.net
+depend: [AssiCore]

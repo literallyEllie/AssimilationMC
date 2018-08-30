@@ -1,0 +1,7 @@
+name: UHCLobbyAdpator
+main: net.assimilationmc.uhclobbyadaptor.UHCLobbyAdaptor
+version: 1.0
+author: AssimialtionMC Development Team
+description: An adaptor plugin to provide support for UHC game finding.
+website: www.assimilationmc.net
+depend: [AssiCore]

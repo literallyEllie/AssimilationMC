@@ -1,0 +1,7 @@
+name: AssiBungee
+main: net.assimilationmc.assibungee.AssiBungee
+version: 1.0
+author: AssimialtionMC Development Team
+description: AssimilationMC Bungee Provider
+website: www.assimilationmc.net
+softdepend: [NuVotifier]

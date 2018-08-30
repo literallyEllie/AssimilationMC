@@ -1,0 +1,7 @@
+name: GameAPI-Test
+main: net.assimilationmc.gameapi.testgame.TestGamePlugin
+version: 1.0
+author: AssimialtionMC Development Team
+description: AssimilationMC Game API provider.
+website: www.assimilationmc.net
+softdepend: [ProtocolLib, Citizens, HolographicDisplays]

@@ -1,0 +1,47 @@
+plugins {
+    id 'java'
+    id "com.github.johnrengelman.shadow" version '2.0.1'
+}
+
+compileJava.options.encoding = 'UTF-8'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+group 'net.assimatilionmc'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    /* Provided Libraries */
+    compileOnly files("lib/Waterfall.jar")
+    compileOnly files('lib/nuvotifier-universal-2.3.6.jar')
+    compileOnly files("lib/buycraftx-bungeecord-10.5.0.jar")
+
+    /* Redis client */
+    compile group: 'redis.clients', name: 'jedis', version: '2.9.0'
+
+    /* JDA - Discord */
+    compile group: 'net.dv8tion', name: 'JDA', version: '3.7.1_386'
+
+    /* DB Tools */
+    compile group: 'com.zaxxer', name: 'HikariCP', version: '3.2.0'
+
+    /* Utils */
+    compile group: 'org.reflections', name: 'reflections', version: '0.9.10'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+shadowJar {
+    archiveName = "AssiBungee-${version}.jar"
+    exclude '.cache'
+    exclude 'lib/*'
+}
+
+artifacts {
+    archives shadowJar
+}

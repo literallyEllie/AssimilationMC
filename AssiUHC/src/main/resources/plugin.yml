@@ -1,0 +1,7 @@
+name: AssiUHC
+main: net.assimilationmc.assiuhc.AssiUHC
+version: 1.0
+author: AssimialtionMC Development Team
+description: AssimilationMC UHC plugin.
+website: www.assimilationmc.net
+softdepend: [ProtocolLib, Citizens, HolographicDisplays]
