@@ -1,0 +1,7 @@
+name: AssiCore
+main: net.assimilationmc.assicore.StandalonePlugin
+version: 1.0
+author: AssimialtionMC Development Team
+description: AssimilationMC Core Plugin / API provider
+website: www.assimilationmc.net
+softdepend: [ProtocolLib, Citizens, HolographicDisplays]
