@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AssiCore:jar">
+    <output-path>D:/Ellie/Test Servers/Assimilation/UHC/plugins</output-path>
+    <root id="archive" name="AssiCore.jar">
+      <element id="module-output" name="AssiCore" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../APIs/Sql2o/sql2o-1.5.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../APIs/jsonrpc2-base-1.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../APIs/jsonrpc2-client-1.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AssiUHC:jar">
+    <output-path>D:/Ellie/Test Servers/Assimilation/UHC/plugins</output-path>
+    <root id="archive" name="AssiUHC.jar">
+      <element id="module-output" name="AssiUHC" />
+    </root>
+  </artifact>
+</component>

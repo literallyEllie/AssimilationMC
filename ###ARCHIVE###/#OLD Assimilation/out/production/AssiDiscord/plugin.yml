@@ -1,0 +1,6 @@
+name: AssiDiscord
+main: net.assimilationmc.ellie.discord.AssiDiscord
+version: 1.Big
+author: xEline
+description: Discord hook for Assimilation
+depend: [AssiCore]

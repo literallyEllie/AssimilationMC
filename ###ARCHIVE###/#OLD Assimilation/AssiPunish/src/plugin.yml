@@ -1,0 +1,7 @@
+name: AssiPunish
+main: net.assimilationmc.ellie.assipunish.AssiPunish
+version: 0.1
+author: xEline
+depend: [AssiCore]
+softdepend: [AssiDiscord]
+description: Punishment Management for Assimilation

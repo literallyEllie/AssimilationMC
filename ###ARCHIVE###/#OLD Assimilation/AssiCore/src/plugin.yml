@@ -1,0 +1,5 @@
+name: AssiCore
+main: net.assimilationmc.ellie.assicore.AssiPlugin
+version: 2.2.3
+author: xEline
+description: Core plugin for Assimilation.

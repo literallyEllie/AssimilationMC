@@ -1,0 +1,6 @@
+name: AssiBPerms
+main: com.assimilation.ellie.assibperms.AssiBPerms
+version: 0.1 Build 25
+author: PotatoTheEllie
+description: Bungeecord Permissions system for Assimilation.
+depends: [AssiBungee]

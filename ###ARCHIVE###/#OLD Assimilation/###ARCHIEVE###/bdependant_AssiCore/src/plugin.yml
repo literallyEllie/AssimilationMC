@@ -1,0 +1,5 @@
+name: AssiCore
+main: com.assimilation.ellie.assicore.AssiPlugin
+version: 0.1 Build 5
+author: PotatoTheEllie
+description: Spigot Core for Assimilation.

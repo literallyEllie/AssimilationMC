@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AssiCore/AssiCore.iml" filepath="$PROJECT_DIR$/AssiCore/AssiCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AssiDiscord.iml" filepath="$PROJECT_DIR$/.idea/modules/AssiDiscord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AssiDiscord_main.iml" filepath="$PROJECT_DIR$/.idea/modules/AssiDiscord_main.iml" group="AssiDiscord" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AssiDiscord_test.iml" filepath="$PROJECT_DIR$/.idea/modules/AssiDiscord_test.iml" group="AssiDiscord" />
+      <module fileurl="file://$PROJECT_DIR$/AssiPunish/AssiPunish.iml" filepath="$PROJECT_DIR$/AssiPunish/AssiPunish.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AssiUHC/AssiUHC.iml" filepath="$PROJECT_DIR$/AssiUHC/AssiUHC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AssiVote/AssiVote.iml" filepath="$PROJECT_DIR$/AssiVote/AssiVote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EnjinClient/EnjinClient.iml" filepath="$PROJECT_DIR$/EnjinClient/EnjinClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestProject/TestProject.iml" filepath="$PROJECT_DIR$/TestProject/TestProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/assishop.iml" filepath="$PROJECT_DIR$/.idea/modules/assishop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/assishop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/assishop_main.iml" group="assishop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/assishop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/assishop_test.iml" group="assishop" />
+      <module fileurl="file://$PROJECT_DIR$/AssiVote/src/main/main.iml" filepath="$PROJECT_DIR$/AssiVote/src/main/main.iml" />
+    </modules>
+  </component>
+</project>

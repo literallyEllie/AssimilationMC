@@ -1,0 +1,6 @@
+name: AssiUHC
+main: net.assimilationmc.ellie.assiuhc.UHC
+version: 0.1 Build 3
+author: xEline
+description: UHC for Assimilation.
+depend: [AssiCore, Multiverse-Core]

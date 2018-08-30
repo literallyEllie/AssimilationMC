@@ -1,0 +1,6 @@
+name: AssiShop
+main: net.assimilationmc.ellie.assishop.AssiShop
+version: 0.3
+author: xEline
+depend: [AssiCore]
+description: Shop management.

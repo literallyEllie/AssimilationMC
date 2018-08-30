@@ -1,0 +1,6 @@
+name: AssiKits
+main: com.assimilation.ellie.assikits.AssiKits
+version: 0.1 Build 1
+author: PotatoTheEllie
+description: Kits plugin for Assimilation.
+depend: [AssiCore]

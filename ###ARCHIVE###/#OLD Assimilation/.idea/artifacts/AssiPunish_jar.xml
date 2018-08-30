@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AssiPunish:jar">
+    <output-path>D:/Ellie/Test Servers/Assimilation/UHC/plugins</output-path>
+    <root id="archive" name="AssiPunish.jar">
+      <element id="module-output" name="AssiPunish" />
+    </root>
+  </artifact>
+</component>

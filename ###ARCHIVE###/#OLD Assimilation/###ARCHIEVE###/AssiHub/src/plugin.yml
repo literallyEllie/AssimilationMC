@@ -1,0 +1,6 @@
+name: AssiHub
+main: com.assimilation.ellie.assihub.AssiHub
+version: 0.1 Build 7
+author: PotatoTheEllie
+description: Hub plugin for Assimilation.
+depend: [AssiCore]
